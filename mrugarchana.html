@@ -109,15 +109,22 @@
             <div class="tab-section-property">
               <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <a class="nav-link active" id="projectinfo-tab" data-bs-toggle="tab" data-bs-target="#projectinfo"
-                    role="tab" aria-controls="projectinfo" aria-selected="true">Project Reviews</a>
-                  <a class="nav-link" id="developers-tab" data-bs-toggle="tab" data-bs-target="#developers" role="tab"
+                  <a class="nav-link active" id="developers-tab" data-bs-toggle="tab" data-bs-target="#developers" role="tab"
                     aria-controls="developers" aria-selected="false">Developer Info</a>
+                  <a class="nav-link" id="projectinfo-tab" data-bs-toggle="tab" data-bs-target="#projectinfo"
+                    role="tab" aria-controls="projectinfo" aria-selected="true">Project Reviews</a>
 
                 </div>
               </nav>
               <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="projectinfo" role="tabpanel"
+                <div class="tab-pane fade active p-3 show " id="developers" role="tabpanel" aria-labelledby="developers-tab">
+                  <div>
+                    <p><b>Shreejee Buildcon</b></p><br/>
+					<p>Shreejee Buildcon is today a class by itself in the building industry in Mulund (W) and engaged in construction activities since the last 2 decades and well known in this business for its past track record of quality construction within committed time. The group has delivered 18 projects & 1.2 million sq ft.</p>
+                  </div>
+
+                </div>
+                <div class="tab-pane" id="projectinfo" role="tabpanel"
                   aria-labelledby="projectinfo-tab">
                   <div class="user-rating-main">
                     <div class="user-avtar">
@@ -135,13 +142,6 @@
                       <i class="fas fa-star"></i>
                     </span>
                   </div>
-                </div>
-                <div class="tab-pane fade p-3" id="developers" role="tabpanel" aria-labelledby="developers-tab">
-                  <div>
-                    <p><b>Shreejee Buildcon</b></p><br/>
-					<p>Shreejee Buildcon is today a class by itself in the building industry in Mulund (W) and engaged in construction activities since the last 2 decades and well known in this business for its past track record of quality construction within committed time. The group has delivered 18 projects & 1.2 million sq ft.</p>
-                  </div>
-
                 </div>
 
               </div>
@@ -190,91 +190,6 @@
   </section>
   <!-- Property Details Main -->
 
-  <!-- Project gallery Section  -->
-   <section class="project-gallery-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="heading-part-pgs gs_reveal gs_reveal_fromLeft">
-            <span>Project Gallery</span>
-            <form>
-              <div class="pg-selection">
-                <select class="form-select" id="validationDefault04">
-                  <option selected value="">Future Developments</option>
-                </select>
-              </div>
-            </form>
-          </div>
-        </div>
-        <!-- <div class="col-md-6"> -->
-          <!-- <div class="select-box-pgs gs_reveal gs_reveal_fromRight"> -->
-            <!-- <form> -->
-              <!-- <div class="pg-selection"> -->
-                <!-- <select class="form-select" id="validationDefault04"> -->
-                  <!-- <option selected value="">Internal Amenities</option> -->
-                  <!-- <option>External Amenities</option> -->
-                <!-- </select> -->
-              <!-- </div> -->
-            <!-- </form> -->
-          <!-- </div> -->
-        <!-- </div> -->
-
-        <div class="col-12">
-          <div class="slider-part-pgs gs_reveal">
-            <!-- Swiper -->
-            <div class="swiper-container property-f ">
-              <div class="swiper-wrapper alt">
-                <div class="swiper-slide">
-                  <div class="project-f-box">
-                    <div class="p-feature-box">
-                      <div class="img-feature">
-                        <img src="https://mrugarchana.in/assets/images/future/1.jpg" alt="img">
-                      </div>
-                      <h3>3 Metro Train Stations</h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="project-f-box">
-                    <div class="p-feature-box">
-                      <div class="img-feature">
-                        <img src="https://mrugarchana.in/assets/images/future/2.jpg" alt="img">
-                      </div>
-                      <h3>Goregaon Mulund Link Road</h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="project-f-box">
-                    <div class="p-feature-box">
-                      <div class="img-feature">
-                        <img src="https://mrugarchana.in/assets/images/future/3.jpg" alt="img">
-                      </div>
-                      <h3>Cycling & Jogging Track</h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="project-f-box">
-                    <div class="p-feature-box">
-                      <div class="img-feature">
-                        <img src="https://mrugarchana.in/assets/images/future/4.jpg" alt="img">
-                      </div>
-                      <h3>Bullet Train Station </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-            <div class="swiper-button-next pf-next"></div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- Project gallery Section  -->
 
 
   <!-- Project gallery Section  -->
@@ -293,36 +208,59 @@
 
             <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
               class="swiper-container gallery-slider-fb">
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper with-caption">
                 <div class="swiper-slide">
+                  <img src="images/rooftop/temple.jpg" />
+				  <p>Stay Blessed 24x7: Homes Adjoining Jain Temple</p>
+				  
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/rooftop/gym.jpg" />
+				  <p>Stay Healthy: Homes With Hi-Tech AC Gym</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/rooftop/rooftop.jpg" />
+				  <p>Get The Best Of Family Time Under The Stars</p>
+                </div>
+				<div class="swiper-slide">
                   <img src="images/rooftop/1.jpg" />
+				  <p>Adult Swing</p>
                 </div>
                 <div class="swiper-slide">
                   <img src="images/rooftop/2.jpg" />
+				  <p>Amphitheatre</p>
                 </div>
                 <div class="swiper-slide">
                   <img src="images/rooftop/3.jpg" />
+				  <p>Cafe & Rock Climbing</p>
                 </div>
                 <div class="swiper-slide">
                   <img src="images/rooftop/4.jpg" />
+				  <p>Lounge Seating</p>
                 </div>
 				<div class="swiper-slide">
                   <img src="images/rooftop/5.jpg" />
+				  <p>Exercise Area</p>
                 </div>
 				<div class="swiper-slide">
                   <img src="images/rooftop/6.jpg" />
+				  <p>Play Area</p>
                 </div>
 				<div class="swiper-slide">
                   <img src="images/rooftop/7.jpg" />
+				  <p>Children's Landscape</p>
                 </div>
 				<div class="swiper-slide">
                   <img src="images/rooftop/8.jpg" />
+				  <p>Snakes & Ladders</p>
                 </div>
 				<div class="swiper-slide">
                   <img src="images/rooftop/9.jpg" />
+				  <p>3D Skating Area</p>
                 </div>
 				<div class="swiper-slide">
                   <img src="images/rooftop/10.jpg" />
+				  <p>Pergola Seating</p>
                 </div>
               </div>
 
@@ -330,6 +268,15 @@
             <div thumbsSlider="" class="swiper-container gallery-slider-fa">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                  <img src="images/rooftop/thumbs/temple.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/rooftop/thumbs/gym.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/rooftop/thumbs/rooftop.jpg" />
+                </div>
+				<div class="swiper-slide">
                   <img src="images/rooftop/thumbs/1.jpg" />
                 </div>
                 <div class="swiper-slide">
@@ -362,7 +309,7 @@
               </div>
             </div>
             <div class="title-part-drive">
-              <h2>Rooftop Amenities</h2>
+              <h2>Project Amenities</h2>
               <div class="share-via">
                 <div class="left-sv">
                   <span>
@@ -370,7 +317,7 @@
                   </span>
                   <h4>Share via Google Drive</h4>
                 </div>
-                <a href="#" class="btn-drive">04 items</a>
+                <a href="#" class="btn-drive">07 items</a>
               </div>
             </div>
           </div>
@@ -445,6 +392,279 @@
     </div>
   </section>
   <!-- Project gallery Section  -->
+
+
+<!-- Project video Section  -->
+  <section class="project-gallery-section-gd project-videos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="heading-part-pggd gs_reveal">
+            <h2>Project Videos</h2>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+         <iframe width="100%" height="400" src="https://www.youtube.com/embed/fZtqlzIB9SA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		 <p>1.5 BHK | Shreeji Mrugarachana</p>
+        </div>
+        <div class="col-lg-4">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/tRQBAwla_XY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <p>2 BHK | Shreeji Mrugarachana</p>
+        </div>
+<div class="col-lg-4">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/lqZ671MlKOw?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+		  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <p>2.5 BHK | Shreeji Mrugarachana</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Project video Section  -->
+
+
+
+<!-- Project gallery Section  -->
+  <section class="project-gallery-section-gd project-plans">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="heading-part-pggd gs_reveal">
+            <h2>Project Plans</h2>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="g-drive-images gs_reveal">
+            <!-- Swiper -->
+
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+              class="swiper-container gallery-slider-fpb">
+              <div class="swiper-wrapper with-caption">
+                <div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/1.jpg" />
+				  <p>1st Floor Plan</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/2.jpg" />
+				  <p>2nd Floor Plan</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/3.jpg" />
+				  <p>3rd Floor Plan</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/4-6.jpg" />
+				  <p>4-6th Floor Plan</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/7-8.jpg" />
+				  <p>7-8th Floor Plan</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/9.jpg" />
+				  <p>9th Floor Plan</p>
+                </div>
+				
+              </div>
+
+            </div>
+            <div thumbsSlider="" class="swiper-container gallery-slider-fp">
+              <div class="swiper-wrapper">
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/thumbs/1.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/thumbs/2.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/thumbs/3.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/thumbs/4-6.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/thumbs/7-8.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/mrugarchana/plans/floorplans/thumbs/9.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="title-part-drive">
+              <h2>FloorPlans</h2>
+              <div class="share-via">
+                <div class="left-sv">
+                  <span>
+                    <img src="images/drive-section.png" alt="img">
+                  </span>
+                  <h4>Share via Google Drive</h4>
+                </div>
+                <a href="#" class="btn-drive">07 items</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="g-drive-images gs_reveal">
+            <!-- Swiper -->
+
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+              class="swiper-container gallery-slider-upb">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\15BHK\A-1.5-536.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\15BHK\A-1.5-561.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\15BHK\C-1.5-536.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\2BHK\C-2-665.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\2BHK\B-2-639.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\25BHK\C-2.5-730.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\25BHK\A-2.5-730.jpg" />
+                </div>
+              </div>
+
+            </div>
+            <div thumbsSlider="" class="swiper-container gallery-slider-up">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\15BHK\thumbs\A-1.5-536.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\15BHK\thumbs\A-1.5-561.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\15BHK\thumbs\C-1.5-536.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\2BHK\thumbs\C-2-665.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\2BHK\thumbs\B-2-639.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\25BHK\thumbs\C-2.5-730.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\mrugarchana\plans\unitplans\25BHK\thumbs\A-2.5-730.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="title-part-drive">
+              <h2>Unit Plans</h2>
+              <div class="share-via">
+                <div class="left-sv">
+                  <span>
+                    <img src="images/drive-section.png" alt="img">
+                  </span>
+                  <h4>Share via Google Drive</h4>
+                </div>
+                <a href="#" class="btn-drive">07 items</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- Project gallery Section  -->
+
+
+
+  <!-- Project gallery Section  -->
+   <section class="project-gallery-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="heading-part-pgs gs_reveal gs_reveal_fromLeft">
+            <!-- <span>Project Gallery</span> -->
+            <h1>Future Developments</h1>
+          </div>
+        </div>
+        <!-- <div class="col-md-6"> -->
+          <!-- <div class="select-box-pgs gs_reveal gs_reveal_fromRight"> -->
+            <!-- <form> -->
+              <!-- <div class="pg-selection"> -->
+                <!-- <select class="form-select" id="validationDefault04"> -->
+                  <!-- <option selected value="">Internal Amenities</option> -->
+                  <!-- <option>External Amenities</option> -->
+                <!-- </select> -->
+              <!-- </div> -->
+            <!-- </form> -->
+          <!-- </div> -->
+        <!-- </div> -->
+
+        <div class="col-12">
+          <div class="slider-part-pgs gs_reveal">
+            <!-- Swiper -->
+            <div class="swiper-container property-f ">
+              <div class="swiper-wrapper alt">
+                <div class="swiper-slide">
+                  <div class="project-f-box">
+                    <div class="p-feature-box">
+                      <div class="img-feature">
+                        <img src="https://mrugarchana.in/assets/images/future/1.jpg" alt="img">
+                      </div>
+                      <h3>3 Metro Train Stations</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-f-box">
+                    <div class="p-feature-box">
+                      <div class="img-feature">
+                        <img src="https://mrugarchana.in/assets/images/future/2.jpg" alt="img">
+                      </div>
+                      <h3>Goregaon Mulund Link Road</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-f-box">
+                    <div class="p-feature-box">
+                      <div class="img-feature">
+                        <img src="https://mrugarchana.in/assets/images/future/3.jpg" alt="img">
+                      </div>
+                      <h3>Cycling & Jogging Track</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-f-box">
+                    <div class="p-feature-box">
+                      <div class="img-feature">
+                        <img src="https://mrugarchana.in/assets/images/future/4.jpg" alt="img">
+                      </div>
+                      <h3>Bullet Train Station </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-next pf-next"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Project gallery Section  -->
+
 
   <!-- Map Section  -->
 
@@ -1090,6 +1310,34 @@
       watchSlidesProgress: true,
     });
     var swiper2 = new Swiper(".gallery-slider-sb", {
+      spaceBetween: 10,
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+	
+	var swiper = new Swiper(".gallery-slider-fp ", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".gallery-slider-fpb", {
+      spaceBetween: 10,
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+	
+	var swiper = new Swiper(".gallery-slider-up ", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".gallery-slider-upb", {
       spaceBetween: 10,
       thumbs: {
         swiper: swiper,

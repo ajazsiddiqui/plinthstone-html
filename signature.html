@@ -111,15 +111,15 @@
             <div class="tab-section-property">
               <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <a class="nav-link active" id="projectinfo-tab" data-bs-toggle="tab" data-bs-target="#projectinfo"
-                    role="tab" aria-controls="projectinfo" aria-selected="true">Project Reviews</a>
-                  <a class="nav-link" id="developers-tab" data-bs-toggle="tab" data-bs-target="#developers" role="tab"
+                  <a class="nav-link active" id="developers-tab" data-bs-toggle="tab" data-bs-target="#developers" role="tab"
                     aria-controls="developers" aria-selected="false">Developer Info</a>
+                  <a class="nav-link" id="projectinfo-tab" data-bs-toggle="tab" data-bs-target="#projectinfo"
+                    role="tab" aria-controls="projectinfo" aria-selected="true">Project Reviews</a>
 
                 </div>
               </nav>
               <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="projectinfo" role="tabpanel"
+                <div class="tab-pane fade" id="projectinfo" role="tabpanel"
                   aria-labelledby="projectinfo-tab">
                   <div class="user-rating-main">
                     <div class="user-avtar">
@@ -186,7 +186,7 @@
                     </span>
                   </div>
                 </div>
-                <div class="tab-pane fade p-3" id="developers" role="tabpanel" aria-labelledby="developers-tab">
+                <div class="tab-pane show active fade p-3" id="developers" role="tabpanel" aria-labelledby="developers-tab">
                   <div>
                     <p><b>Sreenathji Developers</b></p><br/>
 					<p>Shreenathji Group is a well-established Group in Business of Construction based in Mumbai. Since inception, it has scaled its growth to their present stature by starting as Contractor to various Developers in Mumbai. With its ethical and transparent work practices, Shreenathji Group has successfully excelled in all its endeavors and found its place in being one of the Fastest Growing Developers of Mumbai. Today, Shreenathji Group boasts to have contributed to the Development of Mumbai, by undertaking various Residential, Commercial, IT Park, MHADA Redevelopment, and SRA Projects across the city. Shreenathji Group has also undertaken and is successfully executing various Development Projects even at Karjat, Lonavala in Maharashtra and also at Rajkot in Gujarat.</p><br/><br/>
@@ -248,14 +248,8 @@
       <div class="row">
         <div class="col-md-6">
           <div class="heading-part-pgs gs_reveal gs_reveal_fromLeft">
-            <span>Project Gallery</span>
-            <form>
-              <div class="pg-selection">
-                <select class="form-select" id="validationDefault04">
-                  <option selected value="">Amenities</option>
-                </select>
-              </div>
-            </form>
+            <!-- <span>Project Gallery</span> -->
+            <h1>Amenities</h1>
           </div>
         </div>
         <div class="col-md-6">
@@ -430,18 +424,22 @@
 
             <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
               class="swiper-container gallery-slider-fb">
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper with-caption">
                 <div class="swiper-slide">
-                  <img src="images/rooftop/1.jpg" />
+                  <img src="images/rooftop-signature/1.jpg" />
+				  <p>Cafeteria</p>
                 </div>
                 <div class="swiper-slide">
-                  <img src="images/rooftop/2.jpg" />
+                  <img src="images/rooftop-signature/2.jpg" />
+				  <p>Events</p>
                 </div>
                 <div class="swiper-slide">
-                  <img src="images/rooftop/3.jpg" />
+                  <img src="images/rooftop-signature/3.jpg" />
+				  <p>Casual Breaks</p>
                 </div>
                 <div class="swiper-slide">
-                  <img src="images/rooftop/4.jpg" />
+                  <img src="images/rooftop-signature/4.jpg" />
+				  <p>Meetings</p>
                 </div>
               </div>
 
@@ -449,16 +447,16 @@
             <div thumbsSlider="" class="swiper-container gallery-slider-fa">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="images/rooftop/thumbs/1.jpg" />
+                  <img src="images/rooftop-signature/thumbs/1.jpg" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="images/rooftop/thumbs/2.jpg" />
+                  <img src="images/rooftop-signature/thumbs/2.jpg" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="images/rooftop/thumbs/3.jpg" />
+                  <img src="images/rooftop-signature/thumbs/3.jpg" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="images/rooftop/thumbs/4.jpg" />
+                  <img src="images/rooftop-signature/thumbs/4.jpg" />
                 </div>
               </div>
             </div>
@@ -482,24 +480,30 @@
 
             <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
               class="swiper-container gallery-slider-sb">
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper with-caption">
                 <div class="swiper-slide">
                   <img src="images/amenities/1.jpg" />
+				  <p>Premium Glass Facade</p>
                 </div>
                 <div class="swiper-slide">
                   <img src="images/amenities/2.jpg" />
+				  <p>Grand Entrance Lobby</p>
                 </div>
                 <div class="swiper-slide">
                   <img src="images/amenities/3.jpg" />
+				  <p>Self Contained Offices</p>
                 </div>
                 <div class="swiper-slide">
                   <img src="images/amenities/4.jpg" />
+				  <p>Hi Speed Elevators & 2 Car Lifts</p>
                 </div>
 				<div class="swiper-slide">
                   <img src="images/amenities/5.jpg" />
+				  <p>Double Basement Parking</p>
                 </div>
 				<div class="swiper-slide">
                   <img src="images/amenities/6.jpg" />
+				  <p>Amazing Views & Natural Lightnings</p>
                 </div>
               </div>
 
@@ -546,6 +550,163 @@
     </div>
   </section>
   <!-- Project gallery Section  -->
+  
+  
+  
+  
+  <!-- Project video Section  -->
+  <section class="project-gallery-section-gd project-videos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-2 text-center">
+          <div class="heading-part-pggd gs_reveal">
+            <h2>Project Videos</h2>
+          </div>
+        </div>
+
+        <div class="col-lg-8 offset-2">
+         <iframe width="100%" height="600" src="https://www.youtube.com/embed/_1bWAYJGHdY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		 <p>The Most Iconic Business Address</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Project video Section  -->
+
+
+
+<!-- Project gallery Section  -->
+  <section class="project-gallery-section-gd project-plans">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="heading-part-pggd gs_reveal">
+            <h2>Project Plans</h2>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="g-drive-images gs_reveal">
+            <!-- Swiper -->
+
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+              class="swiper-container gallery-slider-fpb">
+              <div class="swiper-wrapper with-caption">
+                <div class="swiper-slide">
+                  <img src="images/signature/plans/t1.jpg" />
+				  <p>Typical Floorplan <br/>
+				   (5th, 6th, 8th, 10th & 11th Floor)</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/signature/plans/t2.jpg" />
+				  <p>Typical Floorplan <br/>
+				   (12th, 13th, 14th Floor)</p>
+                </div>
+              </div>
+
+            </div>
+            <div thumbsSlider="" class="swiper-container gallery-slider-fp">
+              <div class="swiper-wrapper">
+				<div class="swiper-slide">
+                  <img src="images/signature/plans/t1-t.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images/signature/plans/t2-t.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="title-part-drive">
+              <h2>FloorPlans</h2>
+              <div class="share-via">
+                <div class="left-sv">
+                  <span>
+                    <img src="images/drive-section.png" alt="img">
+                  </span>
+                  <h4>Share via Google Drive</h4>
+                </div>
+                <a href="#" class="btn-drive">02 items</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="g-drive-images gs_reveal">
+            <!-- Swiper -->
+
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+              class="swiper-container gallery-slider-upb">
+              <div class="swiper-wrapper with-caption">
+                <div class="swiper-slide">
+                  <img src="images\signature\plans\2.jpg" />
+				  <p>Office no. 2 <br/>
+				   (12th, 13th, 14th Floor)</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\signature\plans\5.jpg" />
+				  <p>Office no. 5 <br/>
+				   (12th, 13th, 14th Floor)</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\signature\plans\6.jpg" />
+				  <p>Office no. 6 <br/>
+				   (12th, 13th, 14th Floor)</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\signature\plans\7.jpg" />
+				  <p>Office no. 7 <br/>
+				   (12th, 13th, 14th Floor)</p>
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\signature\plans\12.jpg" />
+				  <p>Office no. 12 <br/>
+				   (12th, 13th, 14th Floor)</p>
+                </div>
+              </div>
+
+            </div>
+            <div thumbsSlider="" class="swiper-container gallery-slider-up">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images\signature\plans\2-t.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\signature\plans\5-t.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\signature\plans\6-t.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images\signature\plans\7-t.jpg" />
+                </div>
+				<div class="swiper-slide">
+                  <img src="images\signature\plans\12-t.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="title-part-drive">
+              <h2>Unit Plans</h2>
+              <div class="share-via">
+                <div class="left-sv">
+                  <span>
+                    <img src="images/drive-section.png" alt="img">
+                  </span>
+                  <h4>Share via Google Drive</h4>
+                </div>
+                <a href="#" class="btn-drive">05 items</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- Project gallery Section  -->
+  
+  
+  
 
   <!-- Map Section  -->
 
@@ -1231,6 +1392,34 @@
       watchSlidesProgress: true,
     });
     var swiper2 = new Swiper(".gallery-slider-sb", {
+      spaceBetween: 10,
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+	
+var swiper = new Swiper(".gallery-slider-fp ", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".gallery-slider-fpb", {
+      spaceBetween: 10,
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+	
+	var swiper = new Swiper(".gallery-slider-up ", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".gallery-slider-upb", {
       spaceBetween: 10,
       thumbs: {
         swiper: swiper,

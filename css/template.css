@@ -325,6 +325,7 @@ header .navbar-nav .nav-link:hover {
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 1.2;
+	margin-bottom: 50px;
 }
 
 .banner-slider-main .banner-content p {
@@ -377,7 +378,6 @@ header .navbar-nav .nav-link:hover {
 
 .content-part-partners {
 	display: block;
-	width: 80%;
 	margin-left: auto;
 }
 
@@ -413,6 +413,7 @@ header .navbar-nav .nav-link:hover {
 .content-part-partners .cacs .ca-part .content-ca-part {
 	display: block;
 	width: 70%;
+	text-align: left;
 }
 
 .content-part-partners .cacs .ca-part .content-ca-part p {
@@ -445,6 +446,7 @@ header .navbar-nav .nav-link:hover {
 .content-part-partners .cacs .cs-part .content-cs-part {
 	display: block;
 	width: 70%;
+	text-align: left;
 }
 
 .content-part-partners .cacs .cs-part .content-cs-part p {
@@ -1926,7 +1928,7 @@ footer {
 
 .property-details-section .text-wrap-pdb {
 	display: block;
-	width: 80%;
+	width: 90%;
 	margin-left: auto;
 }
 
@@ -3157,7 +3159,6 @@ span.icon-bank-pd img{
 
 .g-drive-images .swiper-container {
 	width: 100%;
-	height: 300px;
 	margin-left: auto;
 	margin-right: auto;
   }
@@ -3238,4 +3239,40 @@ span.icon-bank-pd img{
   
   .alt .project-f-box h3 {
     padding: 0 0 20px 0;
+}
+
+.heading-part-pgs h1{
+	font-size: 45px;
+font-weight: 700;
+}
+
+.swiper-wrapper.with-caption p{
+	position: absolute;
+	z-index: 10;
+	bottom: 20px;
+	left: 20px;
+	font-weight: 700;
+	color: #fff;
+	background: #2f3c84;
+	padding: 4px 20px;
+	border-radius: 50px;
+}
+
+.project-videos p {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery-slider-fpb .swiper-slide,.gallery-slider-upb .swiper-slide{
+border-radius: 10px;
+border: 4px solid #eee;
+padding: 20px;
+min-height: 400px;
+}
+
+.gallery-slider-fp .swiper-slide,.gallery-slider-up .swiper-slide {
+    border: 4px solid #eee;
+    padding: 10px;
+    margin-top: 10px;
 }
